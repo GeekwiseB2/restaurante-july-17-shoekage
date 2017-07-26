@@ -1,7 +1,4 @@
-.navbar-inverse {
-    background-color: transparent;
-    border-color: transparent;
-}
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Playfair+Display:900');
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: rgba(51, 51, 51, .5);
@@ -12,9 +9,14 @@
   text-shadow: 1px 1px 2px #333;
 }
 
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-  color: #F8512F;
   background-color: rgba(51, 51, 51, .25);
+  color: #F8512F;
 }
 
 /*Carousel Styles*/
@@ -58,4 +60,27 @@
 
 .carousel-caption {
   margin-bottom: 45px;
+}
+
+.left-col h1 {
+  color: #F8512F;
+  font-family: 'Lobster', Cursive;
+  font-size: 5em;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 2px #313;
+}
+.left-col h3 {
+  margin-top: 0px;
+}
+.right-col .year {
+  font-family: 'Playfair Display';
+  font-weight: 900;
+  position: absolute;
+  z-index: -1;
+  color: rgba(51, 51, 51, 0.15);
+  font-size: 150px;
+}
+
+.mainsection {
+  margin: 10% auto;
 }
