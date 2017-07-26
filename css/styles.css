@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Playfair+Display:900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: rgba(51, 51, 51, .5);
@@ -77,10 +77,47 @@
   font-weight: 900;
   position: absolute;
   z-index: -1;
-  color: rgba(51, 51, 51, 0.15);
-  font-size: 150px;
+  color: rgba(51, 51, 51, 0.1);
+  font-size: 170px;
 }
 
 .mainsection {
   margin: 10% auto;
+}
+
+/*Review Styles*/
+
+#review {
+  height: 550px;
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.fresnoreview {
+  height: 200px;
+  background-color: rgba(51, 51, 51, 0.5);
+  border-radius: 5px;
+}
+.fresnoreview h1 {
+  color: #F8512F;
+  font-family: 'Lobster', Cursive;
+  font-size: 5em;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 2px #313;
+}
+
+.fresnoreview p {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 36px;
+  font-family: 'Lato' , sans-serif ;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.reviewsection .flex {
+  display: flex;
+  align-items: center;
+  height: 550px;
 }
