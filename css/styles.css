@@ -121,3 +121,18 @@
   align-items: center;
   height: 550px;
 }
+
+/*Menu Styles*/
+#menu {
+  height: 700px;
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+}
+
+.menusection h1 {
+  color: #FFF;
+  font-family: 'Lobster', Cursive;
+  font-size: 5em;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 2px #313;
+}
