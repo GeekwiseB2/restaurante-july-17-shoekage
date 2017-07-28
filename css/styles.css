@@ -121,3 +121,44 @@
   align-items: center;
   height: 550px;
 }
+
+/*Menu Styles*/
+#menu {
+  height: 600px;
+  background-image: url('../img/black_linen.png');
+}
+
+#menu h1 {
+  color: #FFF;
+  font-family: 'Lobster', Cursive;
+  font-size: 5em;
+  margin-bottom: 0px;
+}
+
+.food {
+  background-color: #FFF;
+  overflow:auto;
+  height: 425px;
+  padding: 8px 12px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu a{
+    color: #F8512F;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+.nav-tabs.nav-justified>.active>a:hover, .nav>li>a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: transparent;
+}
+/*
+.nav-tabs>li>a:hover {
+    border-color: #eee #eee #ddd;
+    color: #F8512F;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: rgba(51, 51, 51, .05);
+    color: #F8512F;
+}*/
