@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
 
+body {
+  position: relative;
+}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: rgba(51, 51, 51, .5);
 }
